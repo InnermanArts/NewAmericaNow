@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewAmericaNow</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_writing_vocab">activity_writing_vocab</string>
+    <string name="title_activity_writing_vocab">writing_vocab</string>
+    <string name="title_activity_history">history</string>
+    <string name="title_activity_amgov">amgov</string>
+    <string name="title_activity_readingvocab">readingvocab</string>
+</resources>

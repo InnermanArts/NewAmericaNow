@@ -1,0 +1,95 @@
+package com.example.dennisthicklin.newamericanow.Model;
+
+import java.util.Random;
+
+/**
+ * Created by dennisthicklin on 5/16/16.
+ */
+public class Vocabulary {
+    String[] words = new String[]{"second",
+            "red",
+            "four",
+            "the",
+            "Here",
+            "In",
+            "Most",
+            "Largest",
+            "First",
+            "Fifty",
+            "Dollar Bill",
+            "Blue",
+            "We",
+            "To",
+            "On",
+            "Of",
+            "During",
+            "And",
+            "Want",
+            "One Hundred",
+            "One",
+            "People",
+            "Vote",
+            "Pay",
+            "Meets",
+            "Live",
+            "Is",
+            "Has",
+            "Elect",
+            "Come",
+            "Can",
+            "ThanksGiving",
+            "Columbus",
+            "Labor Day",
+            "Independence Day",
+            "Flag Day",
+            "Patriotism",
+            "Memorial Day",
+            "President's Day",
+            "January",
+            "Februray",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+            "New York City",
+            "United States",
+            "Mexico",
+            "Delaware",
+            "White",
+            "North",
+            "Canada",
+            "California",
+            "Alaska",
+            "White House",
+            "State",
+            "Senator",
+            "Right",
+            "President",
+            "Freedom of Speech",
+            "Free",
+            "Flag",
+            "Father of our Country",
+            "Congress",
+            "Civil War",
+            "Citizens",
+            "Capital",
+            "American Indian",
+            "Washington",
+            "Lincoln",
+            "Adams",
+            "South"};
+
+    public String getWord(){
+        Random random = new Random();
+        int randomNumber = random.nextInt(words.length);
+        String word = words[randomNumber];
+
+        return word;
+    }
+}
